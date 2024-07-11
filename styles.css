@@ -63,13 +63,28 @@ nav ul li a {
     height: 150px;
 }
 
-h1, h3 {
-    margin: 1rem 0;
-}
-
 p {
     text-align: left;
     line-height: 1.6;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+.features {
+    margin-bottom: 30px; /* Increased margin bottom for more spacing */
+}
+
+.features p {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px; /* Adjusted margin bottom for paragraph */
+}
+
+.feature-item {
+    margin-left: 20px; /* Adjust margin as needed */
+    margin-bottom: 10px; /* Increased margin bottom for more spacing */
 }
 
 .appstore-link {
