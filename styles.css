@@ -95,8 +95,19 @@ h1, h3 {
     background-color: #0073e6;
     padding: 1rem 2rem;
     border-radius: 5px;
+    text-align: center; /* Center-align text within the link */
 }
 
 .appstore-link:hover {
     background-color: #005bb5;
+}
+
+footer {
+    background-color: #262F8A;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
